@@ -1,6 +1,6 @@
-@media screen and (orientation: portrait) and (min-width: 540px) {
+@media screen and (orientation: portrait) and (max-width: 539px) {
   body {
-    grid-template-columns: repeat(10, 54px); /* 359 px*/
+    grid-template-columns: repeat(10, 53px); /* 359 px*/
     grid-template-rows: repeat(3, 100vh) auto auto;
   }
   nav {

@@ -1,7 +1,7 @@
-@media screen and (orientation: landscape) and (min-width: 1280px) {
+@media screen and (orientation: landscape) and (max-width: 1279px) {
   body {
     display: grid;
-    grid-template-columns: 1fr repeat(10, 96px) 1fr; /* 1280 px*/
+    grid-template-columns: 1fr repeat(10, 95px) 1fr; /* 640 px*/
     grid-template-rows: repeat(3, 100vh) auto auto;
   }
   nav {
@@ -24,7 +24,7 @@
     display: none;
   }
   .menu ul li a p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     width: 95px;
     height: 35px;
     display: flex;
@@ -72,11 +72,13 @@
   footer .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
   }
   footer .footer h1 {
-    text-align: center;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
   footer .footer .left {
     width: 200px;
