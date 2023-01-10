@@ -60,6 +60,10 @@ section#page1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-image: url(/svg/background2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
 }
 footer {
   background-image: url(/svg/ornamen3.svg);
