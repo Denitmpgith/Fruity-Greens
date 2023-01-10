@@ -53,18 +53,10 @@ nav {
   color: red;
   border-bottom: 1px solid rgb(255, 0, 0);
 }
-
 section#page1 {
-  width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-image: url(/svg/background2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 section#page1 .sliderimg {
   position: relative;
@@ -83,9 +75,6 @@ section#page1 .sliderimg .mySlides {
 }
 section#page1 .background1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  right: 50%;
   bottom: 0;
   z-index: -2;
 }
@@ -94,19 +83,8 @@ section#page1 .sliderimg .mySlides img {
   height: 550px;
   border-radius: 15px;
 }
-section#page2 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(/svg/background1.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-section#page3 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(/svg/background4.svg);
+footer {
+  background-image: url(/svg/ornamen3.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
