@@ -1,8 +1,12 @@
 @font-face {
-  font-family: "Bree Serif", serif;
+  font-family: "Bree Serif";
   src: url("/font/BreeSerif-Regular.ttf");
 }
 @font-face {
-  font-family: "DM Serif Display", serif;
+  font-family: "DM Serif Display";
   src: url("/font/DMSerifDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Fresh";
+  src: url("/font/Fresh-Fruit.otf");
 }

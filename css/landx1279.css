@@ -30,7 +30,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
   }
   section#page1 {
     grid-column: 1/13;
@@ -43,14 +42,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
-  section#page1 .ornament {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 150px;
   }
   section#page2 {
     grid-column: 1/13;
@@ -83,7 +74,7 @@
     align-items: flex-start;
     padding: 10px;
   }
-  footer .footer h1 {
+  footer .footer h2 {
     text-align: center;
     font-size: 1rem;
     margin-bottom: 1rem;
