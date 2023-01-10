@@ -1,0 +1,35 @@
+@media screen and (orientation: portrait) and (min-width: 720px) {
+  body {
+    grid-template-columns: repeat(20, 36px); /* 359 px*/
+    grid-template-rows: repeat(20, 5vh);
+  }
+  nav {
+  }
+  .logo {
+    left: 0;
+    right: 0;
+    justify-content: center;
+  }
+  .menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    background: linear-gradient(30deg, #622067, #9f49a6, #9f49a6, #622067);
+  }
+  .menu ul {
+    justify-content: space-evenly;
+  }
+  .menu ul li a p {
+    display: none;
+  }
+  .menu ul li a img {
+    width: 75px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+  }
+}
