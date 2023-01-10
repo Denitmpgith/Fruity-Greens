@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) and (max-width: 1279px) {
+@media screen and (orientation: landscape) and (max-width: 1280px) {
   body {
     display: grid;
     grid-template-columns: 1fr repeat(10, 96px) 1fr; /* 640 px*/
@@ -42,6 +42,62 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  section#page1 .copywriting1 {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #303f9f;
+    padding: 25px;
+    /* background-color: wheat; */
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  section#page1 .sliderimg {
+    position: relative;
+    top: 0px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    overflow: hidden;
+    /* background-color: #4c7515; */
+  }
+  section#page1 .kotakslides {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    animation: slide 6s steps(3) infinite;
+  }
+  section#page1 .sliderimg .mySlides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 900px;
+    /* background-color: #303f9f; */
+  }
+  section#page1 .sliderimg .mySlides img {
+    width: 375px;
+    height: 375px;
+    border-radius: 15px;
+  }
+  @keyframes slide {
+    0% {
+      margin-left: -1800px;
+      transform: 1s;
+    }
+    100% {
+      margin-left: 900px;
+      transform: 1s;
+    }
   }
   section#page2 {
     grid-column: 1/13;

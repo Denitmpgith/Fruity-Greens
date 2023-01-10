@@ -1,6 +1,6 @@
-@media screen and (orientation: portrait) and (min-width: 721px) {
+@media screen and (orientation: portrait) and (max-width: 720px) {
   body {
-    grid-template-columns: repeat(11, 1fr); /* 720 px*/
+    grid-template-columns: 1fr repeat(9, 71px) 1fr; /* 720 px*/
     grid-template-rows: repeat(3, 100vh) auto 55px;
   }
   nav {
@@ -44,6 +44,60 @@
     background-size: cover;
     background-position: center;
   }
+  section#page1 .copywriting1 {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #303f9f;
+    padding: 25px;
+    /* background-color: wheat; */
+  }
+  section h1 {
+    font-size: 2rem;
+  }
+  section#page1 .sliderimg {
+    position: relative;
+    top: 0px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: hidden;
+    /* background-color: #4c7515; */
+  }
+  section#page1 .kotakslides {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    animation: slide 15s steps(3) infinite;
+  }
+  section#page1 .sliderimg .mySlides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    /* background-color: #303f9f; */
+  }
+  section#page1 .sliderimg .mySlides img {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+  }
+  @keyframes slide {
+    0% {
+      margin-left: -800px;
+      transform: 1s;
+    }
+    100% {
+      margin-left: 400px;
+      transform: 1s;
+    }
+  }
   section#page2 {
     grid-column: 1/13;
     grid-row: 2;
@@ -77,7 +131,7 @@
   }
   footer .footer h2 {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   footer .footer .left {
