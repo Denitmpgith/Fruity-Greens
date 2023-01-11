@@ -1,12 +1,14 @@
 body {
   display: grid;
 }
-
 .navbg {
-  background-color: #b873be;
+  background-color: #4c7515;
 }
-.color {
+.color1 {
   color: #4c7515;
+}
+.color2 {
+  color: #ffffff;
 }
 nav {
   position: fixed;
@@ -57,30 +59,17 @@ nav {
   border-bottom: 1px solid rgb(255, 0, 0);
 }
 section#page1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(/svg/background2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #000000;
+  color: white;
+}
+.show {
+  display: block;
 }
 footer {
   background-image: url(/svg/ornamen3.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-}
-body .ornamentb {
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 250px;
-  z-index: 1;
-}
-section#page2 {
 }
 footer .fbox {
   display: flex;

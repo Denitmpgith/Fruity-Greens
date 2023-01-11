@@ -112,8 +112,8 @@ ol,
 ul,
 li,
 a {
+  color: #4c7515;
   list-style: none;
-  color: rgb(0, 0, 0);
   text-decoration: none;
   line-height: 1.2rem;
 }
