@@ -11,7 +11,7 @@
   position: fixed;
   display: flex;
   justify-content: end;
-  right: 20px;
+  right: 30px;
   bottom: 70px;
   width: 250px;
   height: 100px;
@@ -27,7 +27,7 @@
     position: fixed;
     display: flex;
     justify-content: end;
-    right: 25px;
+    right: 10px;
     bottom: 150px;
     width: 250px;
     height: 100px;
