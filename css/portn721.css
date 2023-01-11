@@ -1,6 +1,6 @@
 @media screen and (orientation: portrait) and (min-width: 721px) {
   body {
-    grid-template-columns: 1fr repeat(9, 71px) 1fr; /* 720 px*/
+    grid-template-columns: 1fr repeat(9, 1fr) 1fr; /* 720 px*/
     grid-template-rows: repeat(3, 100vh) auto 55px;
   }
   nav {
@@ -130,10 +130,13 @@
     margin-bottom: 1rem;
   }
   footer .footer .left {
+    width: 150px;
   }
   footer .footer .center {
+    width: 150px;
   }
   footer .footer .right {
+    width: 150px;
   }
   footer .socialmedia {
     display: flex;
