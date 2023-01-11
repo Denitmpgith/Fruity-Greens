@@ -36,7 +36,7 @@
 // });
 $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
-  $("nav").css({ transition: "all 1s" });
+  $("nav").css({ transition: "all 0.5s" });
   if (wScroll >= 5) {
     $("nav").addClass("navbg");
     $(".menu ul li a").addClass("color2").removeClass("color1");

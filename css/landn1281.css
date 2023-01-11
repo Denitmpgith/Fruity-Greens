@@ -80,7 +80,7 @@
     background-position: center;
   }
   footer {
-    grid-column: 2/12;
+    grid-column: 1/13;
     grid-row: 4;
     display: flex;
     justify-content: center;
