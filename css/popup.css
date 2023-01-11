@@ -27,7 +27,7 @@ body .info .infobox .text {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   line-height: 2rem;
 }
 body .info .infobox .text .text1 {
