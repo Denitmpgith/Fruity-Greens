@@ -41,23 +41,23 @@
     flex-direction: column;
   }
   section#page1 .copywriting1 {
-    width: 400px;
+    width: 350px;
     height: 350px;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     color: #303f9f;
     padding: 25px;
   }
-  section#page1 .sliderimg .kotakslides h1 {
+  section#page1 h1 {
     text-align: center;
     font-size: 2rem;
   }
   section#page1 .sliderimg {
     position: relative;
     top: 0px;
-    width: 400px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -76,21 +76,21 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     /* background-color: #303f9f; */
   }
   section#page1 .sliderimg .mySlides img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 15px;
   }
   @keyframes slide {
     0% {
-      margin-left: -800px;
+      margin-left: -700px;
       transform: 1s;
     }
     100% {
-      margin-left: 400px;
+      margin-left: 350px;
       transform: 1s;
     }
   }
@@ -119,36 +119,48 @@
     flex-direction: column;
     border-radius: 10px 10px 0px 0px;
   }
+  footer h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  footer p {
+    text-align: center;
+  }
   footer .footer {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
   }
-  footer .footer h2 {
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  footer .footer .left {
-    width: 150px;
-  }
-  footer .footer .center {
-    width: 150px;
-  }
+  footer .footer .left,
+  footer .footer .center,
   footer .footer .right {
-    width: 150px;
+    width: auto;
+    padding: 0px 5px;
+    text-align: center;
   }
+  footer .footer .left ul li a,
+  footer .footer .center ul li a,
+  footer .footer .right ul li a {
+    font-size: 1rem;
+  }
+
   footer .socialmedia {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    background-color: white;
   }
   footer .socialmedia ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 250px;
+    width: auto;
+    padding: 0px 5px;
+  }
+  footer .socialmedia ul li {
+    padding: 0px 5px;
   }
 }
