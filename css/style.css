@@ -75,6 +75,25 @@ section#page1 .sliderimg {
   display: block;
 }
 section#page2 .page2a {
+  position: relative;
+}
+section#page2 .page2a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+section#page2 .page2a .product {
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+}
+
+section#page2 .page2a {
+}
+section#page2 .page2b {
   display: flex;
   justify-content: space-between;
   align-items: center;

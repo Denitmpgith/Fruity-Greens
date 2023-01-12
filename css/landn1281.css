@@ -1,6 +1,5 @@
 @media screen and (orientation: landscape) and (min-width: 1281px) {
   body {
-    display: grid;
     grid-template-columns: 1fr repeat(10, 128px) 1fr; /* 1280 px*/
     grid-template-rows: repeat(3, 100vh) auto auto;
   }
