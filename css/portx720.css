@@ -43,6 +43,13 @@
     text-align: center;
     font-size: 1.75rem;
   }
+  .bottom {
+    width: 400px;
+    height: 700px;
+  }
+  .bottom .nepr {
+    width: 400px;
+  }
   section#page1 .sliderimg {
     width: 400px;
     height: 700px;

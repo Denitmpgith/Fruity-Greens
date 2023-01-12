@@ -1,27 +1,32 @@
 .mySlides {
   display: none;
 }
-.bottom .nepr {
-  width: 1200px;
-  height: 500px;
+.bottom {
+  position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: aqua;
 }
 .bottom .nepr {
-  width: 1200px;
-  height: 500px;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+}
+.bottom .dotbox {
+  position: absolute;
+  width: 150px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
   width: auto;
+  padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -48,8 +53,7 @@
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin-top: 50px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
