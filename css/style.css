@@ -112,20 +112,25 @@ section#page2 .page2a .product .text {
   height: 200px;
   padding: 25px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
+  color: rgb(134, 74, 134);
   /* background-color: #facb35; */
 }
-section#page2 .page2a .product .text p {
+section#page2 .page2a .product .text h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
+}
+section#page2 .page2a .product .text p {
+  text-align: left;
+  color: black;
 }
 section#page2 .page2a .product .prod {
-  width: 275px;
-  height: 275px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +138,10 @@ section#page2 .page2a .product .prod {
   box-shadow: 5px 5px 5px rgb(200, 200, 200);
   border-radius: 10px;
 }
-section#page2 .page2a .product .text:hover,
+section#page2 .page2a .product .text:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
 section#page2 .page2a .product .prod:hover {
   box-shadow: 5px 5px 5px rgb(67, 57, 112);
   transform: scale(1.01);
