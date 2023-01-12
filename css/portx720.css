@@ -53,8 +53,6 @@
   section#page1 .sliderimg {
     width: 400px;
     height: 700px;
-    background-color: #4c7515;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
   }
   section#page1 .sliderimg .mySlides {
     width: 400px;
