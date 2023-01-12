@@ -107,6 +107,7 @@ section#page2 .page2a .product {
   flex-direction: row;
 }
 section#page2 .page2a .product .text {
+  position: relative;
   width: 350px;
   height: 200px;
   padding: 25px;
@@ -115,7 +116,7 @@ section#page2 .page2a .product .text {
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
-  background-color: #facb35;
+  /* background-color: #facb35; */
 }
 section#page2 .page2a .product .text p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
