@@ -2,7 +2,8 @@ body {
   display: grid;
 }
 .navbg {
-  background-color: #4c7515;
+  /* background-color: #4c7515; */
+  background-color: #c83f49;
   box-shadow: 0px 0px 5px black;
 }
 .color1 {
