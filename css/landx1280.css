@@ -88,20 +88,24 @@
     flex-direction: column;
     border-radius: 10px 10px 0px 0px;
   }
+  footer h2 {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
   footer .footer {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
   }
-  footer .footer h2 {
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  footer .footer .left,
-  footer .footer .center,
-  footer .footer .right {
+
+  footer .footer .F_ABOUT_US,
+  footer .footer .F_PARTNER,
+  footer .footer .F_FRANCHISE,
+  footer .footer .F_AVAILABLE {
     width: 200px;
+    padding: 0px 5px;
+    text-align: center;
   }
 }

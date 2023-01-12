@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="/css/reset.css" type="text/css">
         <link rel="stylesheet" href="/css/style.css" type="text/css">
         <link rel="stylesheet" href="/css/copywriting1.css" type="text/css">
-        <link rel="stylesheet" href="/css/popup.css" type="text/css">
+        <link rel="stylesheet" href="/css/imgslide.css" type="text/css">
+        <!-- <link rel="stylesheet" href="/css/popup.css" type="text/css"> -->
         <link rel="stylesheet" href="/css/landx1280.css" type="text/css">
         <link rel="stylesheet" href="/css/landn1281.css" type="text/css">
         <link rel="stylesheet" href="/css/portx720.css" type="text/css">
@@ -21,27 +22,11 @@
     </head>
 
     <body>
-        <div class="info">
-            <div class="infobox">
-                <div class="logo"><img src="/logo/logoprimary.png" width="100" /></div>
-                <div class="text">
-                    <div class="text1">
-                        <h1>Thank You</h1>
-                        <p1>for Visite our webiste</p1>
-                        <p2>Fruity</p2>
-                        <p2a>Greens</p2a>
-                    </div>
-                    <p3>"Whatsapp / Telegram" Web Developer</p3>
-                    <p3>+62821 8453 4652</p3>
-                </div>
-                <span class="closepopup">CLOSE</span>
-            </div>
-        </div>
-        <div class="cs24">
+        <!-- <div class="cs24">
             <div class="avatar">
                 <img src="/img/alice.png" height="150" alt="">
             </div>
-        </div>
+        </div> -->
         <nav class=""></nav>
         <div class="logo"><img src="/logo/Fruity-Greens6.png" height="55px" /></div>
         <div class="menu">
@@ -115,6 +100,15 @@
                     <img src="/img/211411012023(2).png" alt="fruit strawbery"></img>
                 </div>
             </div>
+            <div class="bottom">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
         </section>
         <section id="page2">
             <div class="page2a">
@@ -130,7 +124,7 @@
         </section>
         <footer>
             <div class="footer">
-                <div class="left">
+                <div class="F_ABOUT_US">
                     <h2>ABOUT US</h2>
                     <ul>
                         <li><a href="">hystory</a></li>
@@ -140,7 +134,7 @@
                         <li><a href="">our team</a></li>
                     </ul>
                 </div>
-                <div class="center">
+                <div class="F_PARTNER">
                     <h2>PARTNER</h2>
                     <ul>
                         <li><a href="">hystory</a></li>
@@ -151,34 +145,41 @@
                         <li><a href="">distribution</a></li>
                     </ul>
                 </div>
-                <div class="right">
+                <div class="F_FRANCHISE">
                     <h2>FRANCHISE</h2>
                     <ul>
                         <li><a href="">hystory</a></li>
-                        <li><a href="">legality</a></li>
                         <li><a href="">program</a></li>
                         <li><a href="">legality</a></li>
                         <li><a href="">our store</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="fbox">
-                <div class="socialmedia">
-                    <p>Stay Cool and Lovely with us :</p>
+                <div class="F_AVAILABLE">
+                    <h2>AVAILABLE</h2>
                     <ul>
-                        <li><a href=""><img src="/svg/social_media/facebook.svg" width="20" alt="facebook"></img></a>
-                        </li>
-                        <li><a href=""><img src="/svg/social_media/twitter.svg" width="20" alt="twitter"></img></a></li>
-                        <li><a href=""><img src="/svg/social_media/linkedin.svg" width="20" alt="linkedin"></img></a>
-                        </li>
-                        <li><a href=""><img src="/svg/social_media/instagram.svg" width="20" alt="Instagram"></img></a>
-                        </li>
-                        <li><a href=""><img src="/svg/social_media/youtube.svg" width="20" alt="Youtube"></img></a>
-                        </li>
+                        <li><a href=""><img src="/img/app_store.png" alt="app store"></a></li>
+                        <li><a href=""><img src="/img/google_play.png" alt="google play"></a></li>
+                        <ul class="socialmedia">
+                            <li><a href=""><img src="/svg/social_media/facebook.svg" width="20"
+                                        alt="facebook"></img></a>
+                            </li>
+                            <li><a href=""><img src="/svg/social_media/twitter.svg" width="20" alt="twitter"></img></a>
+                            </li>
+                            <li><a href=""><img src="/svg/social_media/linkedin.svg" width="20"
+                                        alt="linkedin"></img></a>
+                            </li>
+                            <li><a href=""><img src="/svg/social_media/instagram.svg" width="20"
+                                        alt="Instagram"></img></a>
+                            </li>
+                            <li><a href=""><img src="/svg/social_media/youtube.svg" width="20" alt="Youtube"></img></a>
+                            </li>
+                        </ul>
                     </ul>
                 </div>
-                <p>Together we can change the world, become healthier</p>
-                <p>Copyright © 2023 Fruity Greens Inc. All rights reserved.</p>
+            </div>
+            <div class=" fbox">
+                <p>Stay Cool and Lovely with us</p>
+                <p>Copyright © 2023 Fruity Greens Inc. | All rights reserved.</p>
             </div>
         </footer>
     </body>

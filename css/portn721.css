@@ -98,16 +98,15 @@
     align-items: flex-start;
     padding: 10px;
   }
-  footer .footer .left,
-  footer .footer .center,
-  footer .footer .right {
+  footer .footer .F_ABOUT_US,
+  footer .footer .F_PARTNER,
+  footer .footer .F_FRANCHISE,
+  footer .footer .F_AVAILABLE {
     width: auto;
     padding: 0px 5px;
     text-align: center;
   }
-  footer .footer .left ul li a,
-  footer .footer .center ul li a,
-  footer .footer .right ul li a {
+  footer .footer a {
     font-size: 1rem;
   }
 }

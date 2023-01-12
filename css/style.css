@@ -56,12 +56,13 @@ nav {
   border-radius: 5px;
 }
 .menu ul li a:hover {
-  color: red;
-  border-bottom: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 section#page1 {
   background-image: linear-gradient(rgb(25, 25, 25, 0.5), #4c7515);
   color: white;
+  position: relative;
 }
 section#page1 h1 {
   color: white;
@@ -89,13 +90,16 @@ footer {
 footer a {
   color: rgb(75, 69, 59);
 }
+footer h2 {
+  font-weight: bolder;
+}
 footer .fbox {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  background-color: #bcbcbc;
+  background-color: rgba(0, 0, 0, 0.15);
   padding-top: 10px;
   padding-bottom: 25px;
 }
@@ -104,15 +108,10 @@ footer .socialmedia {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-}
-footer .socialmedia ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   width: auto;
 }
-footer .socialmedia ul li {
-  padding: 0px 5px;
+footer .socialmedia li {
+  padding: 0px 0px;
 }
 footer .fbox p {
   font-size: 0.75rem;
