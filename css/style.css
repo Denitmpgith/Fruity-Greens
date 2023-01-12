@@ -5,25 +5,31 @@ body {
   /* background-color: #4c7515; */
   background-color: #c83f49;
   box-shadow: 0px 0px 5px black;
+  transition: all 1s ease-in-out;
 }
 .navbg2 {
   /* background-color: #4c7515; */
   background-color: #008000;
   box-shadow: 0px 0px 5px black;
+  transition: all 1s ease-in-out;
 }
 .navbg3 {
   /* background-color: #4c7515; */
   background-color: #bcbcbc;
   box-shadow: 0px 0px 5px black;
+  transition: all 1s ease-in-out;
 }
 .color1 {
   color: #000000;
+  transition: all 1s ease-in-out;
 }
 .color2 {
   color: #ffffff;
+  transition: all 1s ease-in-out;
 }
 .color3 {
   color: #ffffff;
+  transition: all 1s ease-in-out;
 }
 nav {
   position: fixed;
@@ -89,36 +95,42 @@ section#page1 .sliderimg {
   display: block;
 }
 section#page2 .page2a {
-  position: relative;
-}
-section#page2 .page2a {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  flex-direction: column;
+  width: 100%;
   height: 100vh;
 }
-section#page2 .page2a .page2aa .head .texta {
+section#page2 .page2a .head .texta {
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section#page2 .page2a .page2aa .head .texta p {
+section#page2 .page2a .head .texta p {
   font-family: "Fresh";
   font-size: 2rem;
   color: violet;
   text-shadow: 0px 0px 1px black;
 }
-section#page2 .page2a .product {
-  width: 1250px;
-  height: 275px;
+section#page2 .page2a .page2aa {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  width: 1200px;
+  height: 500px;
+}
+
+section#page2 .page2a .page2aa .product {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 section#page2 .page2a .product .text {
   position: relative;
@@ -164,16 +176,6 @@ section#page2 .page2a .product .prod:hover {
   box-shadow: 5px 5px 5px rgb(67, 57, 112);
   transform: scale(1.01);
   transition: 0.5s;
-}
-
-section#page2 .page2a {
-}
-section#page2 .page2b {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
 }
 section#page3 .page3a {
   display: flex;

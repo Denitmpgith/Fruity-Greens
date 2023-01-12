@@ -71,6 +71,7 @@
   section#page2 {
     grid-column: 1/13;
     grid-row: 2;
+    position: relative;
     background-image: url(/svg/background1.svg);
     background-repeat: no-repeat;
     background-size: cover;
