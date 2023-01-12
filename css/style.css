@@ -116,8 +116,12 @@ section#page2 .page2a .product .text {
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  color: rgb(134, 74, 134);
+  color: rgb(74, 122, 134);
   /* background-color: #facb35; */
+}
+section#page2 .page2a .product .text img {
+  position: absolute;
+  z-index: -1;
 }
 section#page2 .page2a .product .text h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
