@@ -168,10 +168,37 @@
   section#page3 {
     grid-column: 1/13;
     grid-row: 3;
-    background-image: url(/svg/background4.svg);
+    background: linear-gradient(45deg, #ff9702, #fd9808, #ff9702);
+    /* background-image: url(/svg/background4.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+  }
+  section#page3 .page3a {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  section#page3 .page3a .page3aa {
+    width: 1080px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  section#page3 .page3a .page3aa .slide {
+    width: 720px;
+    height: 360px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    animation: slideleft 15s linear infinite;
   }
   body .chat {
     right: 25px;

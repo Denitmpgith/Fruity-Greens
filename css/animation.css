@@ -6,3 +6,11 @@
     opacity: 1;
   }
 }
+@keyframes slideleft {
+  0% {
+    margin-right: 720px;
+  }
+  100% {
+    margin-right: 3600px;
+  }
+}

@@ -90,13 +90,6 @@ section#page1 h1 {
 .show {
   display: block;
 }
-section#page3 .page3a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
 footer {
   background-color: #bcbcbc;
 }
