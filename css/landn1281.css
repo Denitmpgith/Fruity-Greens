@@ -190,6 +190,8 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(50, 50, 50, 0.75);
   }
   section#page3 .page3a .page3aa .slide {
     width: 720px;
