@@ -14,5 +14,5 @@ $(window).scroll(function () {
     $("nav").removeClass("navbg").removeClass("navbg2").addClass("navbg3");
     $(".menu ul li a").addClass("color1").removeClass("color2").removeClass("color3");
   }
-  // console.log(wScroll);
+  console.log(wScroll);
 });

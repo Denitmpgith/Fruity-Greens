@@ -2,5 +2,6 @@
   "window.zoomLevel": 0,
   "editor.fontSize": 15,
   "terminal.integrated.fontSize": 15,
-  "workbench.colorTheme": "Atom One Dark"
+  "workbench.colorTheme": "Atom One Dark",
+  "liveServer.settings.port": 5501
 }

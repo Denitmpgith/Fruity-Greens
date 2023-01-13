@@ -108,6 +108,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    margin-top: 100px;
     width: 825px;
     height: 500px;
   }
