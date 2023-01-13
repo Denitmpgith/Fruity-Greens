@@ -67,6 +67,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    animation: slide_text 1.5s linear;
   }
   section#page1 .copywriting1 {
     width: 550px;
@@ -102,6 +103,7 @@
     font-size: 3rem;
     color: violet;
     text-shadow: 0px 0px 1px black;
+    animation: slide_text 1.5s linear;
   }
   section#page2 .page2a .page2aa {
     display: flex;

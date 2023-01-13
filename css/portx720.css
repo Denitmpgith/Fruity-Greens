@@ -61,6 +61,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    animation: slide_text 1.5s linear;
   }
   section#page1 .sliderimg .mySlides .copywriting1 {
     width: 350px;
