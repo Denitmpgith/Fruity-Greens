@@ -184,7 +184,7 @@
     height: 100vh;
   }
   section#page3 .page3a .page3aa {
-    width: 1080px;
+    width: 720px;
     height: 360px;
     display: flex;
     justify-content: center;
@@ -199,6 +199,9 @@
     align-items: center;
     flex-direction: row;
     animation: slideleft 15s linear infinite;
+  }
+  section#page3 .page3a .page3aa .slide:hover {
+    animation-play-state: paused;
   }
   body .chat {
     right: 25px;
